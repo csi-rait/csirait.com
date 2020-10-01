@@ -91,6 +91,12 @@ nav {
     height: 6rem;
 }
 
+.anchor {
+    display: block;
+    height:78px;
+    margin-top:-78px;
+    visibility: hidden;
+}
 /* ##################### INTRODUCTION ######################## */
 .introduction {
     color: white;
