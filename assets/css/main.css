@@ -12,7 +12,7 @@ body {
 /* ###################### HERO ######################### */
 .hero {
     height: 100vh;
-    background: url("../img/hero.webp") no-repeat center center fixed;
+    background: url("https://media.discordapp.net/attachments/762682615919542282/762682731653496862/hero.webp?width=1204&height=677") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,6 +91,12 @@ nav {
     height: 6rem;
 }
 
+.anchor {
+    display: block;
+    height:78px;
+    margin-top:-78px;
+    visibility: hidden;
+}
 /* ##################### INTRODUCTION ######################## */
 .introduction {
     color: white;
@@ -144,7 +150,7 @@ nav {
 
 .cta {
 
-    background-image: url("../img/banner.webp");
+    background-image: url("https://cdn.discordapp.com/attachments/762682615919542282/762683252338720848/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
@@ -217,15 +223,15 @@ h3 {
 }
 
 .tech-talk {
-    background: url("../img/techtalk.webp")
+    background: url("https://cdn.discordapp.com/attachments/762682615919542282/762682683465662464/techtalk.webp")
 }
 
 .ts {
-    background: url("../img/techsympo.webp")
+    background: url("https://cdn.discordapp.com/attachments/762682615919542282/762682681573900318/techsympo.webp")
 }
 
 .workshops {
-    background: url("../img/workshop.webp")
+    background: url("https://cdn.discordapp.com/attachments/762682615919542282/762682684786737172/workshop.webp")
 }
 .nav-logo-small{
     width:50px
