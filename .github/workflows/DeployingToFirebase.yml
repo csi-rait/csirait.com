@@ -18,4 +18,4 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CSIRAIT_75C6C }}
           FIREBASE_PROJECT: csirait-75c6c
-          TARGET_BRANCH: main
+          TARGET_BRANCH: master
