@@ -485,13 +485,13 @@ nav .sidenav-trigger {
 @media (max-width: 991px) {
     .ele {
         border-right: 0px dashed white;
-        border-bottom: 1px dashed white;
+       
         width: 50%;
         margin: auto auto;
     }
 
     .ele:last-child {
-        border-bottom: 0px dashed white;
+        
     }
 }
 
