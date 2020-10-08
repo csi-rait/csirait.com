@@ -4,7 +4,8 @@ name: Deploying to Firebase
 on:
   push:
     branches:
-    - main
+      - master
+    
 jobs:
     Deploying-to-firebase:
       runs-on: ubuntu-latest
