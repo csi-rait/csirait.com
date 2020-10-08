@@ -6,15 +6,15 @@ on:
     branches:
     - main
 jobs:
-    name: Deploying To Firebase
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-      uses: actions/checkout@master
-    - name: Deploy to Firebase
-      uses: lowply/deploy-firebase@v0.0.4
+    Deploying-to-firebase:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Deploy to Firebase
+        uses: lowply/deploy-firebase@v0.0.4
 
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CSIRAIT_75C6C }}
-        FIREBASE_PROJECT: csirait-75c6c
-        TARGET_BRANCH: main
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CSIRAIT_75C6C }}
+          FIREBASE_PROJECT: csirait-75c6c
+          TARGET_BRANCH: main
