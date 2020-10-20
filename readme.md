@@ -1,2 +1,2 @@
-( ͡° ͜ʖ ͡°)
-( ͡° ͜ʖ ͡°)
+Website for CSI RAIT
+csirait.com
